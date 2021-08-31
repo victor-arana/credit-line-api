@@ -21,8 +21,6 @@ public class CreditLineController {
     @ResponseBody
     public CreditLineResponse creditLine(@RequestBody CreditLineRequest request){
         return creditLineService.calculate(request);
-        /*
-        return creditLineResponse;*/
     }
 
 }
